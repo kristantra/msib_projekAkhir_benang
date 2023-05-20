@@ -12,7 +12,7 @@
           <a class="nav-link <?php echo Request::is('home') ? 'active' : ''; ?>" href="{{ url('/home') }}">Beranda</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link <?php echo Request::is('product') ? 'active' : ''; ?>" href="{{ url('/product') }}">Produk</a>
+          <a class="nav-link <?php echo Request::is('product') ? 'active' : ''; ?>" href="{{ url('/products') }}">Produk</a>
         </li>
         <li class="nav-item">
           <a class="nav-link <?php echo Request::is('about-us') ? 'active' : ''; ?>" href="{{ url('/about-us') }}">Tentang Kami</a>
